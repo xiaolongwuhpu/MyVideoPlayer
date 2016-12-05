@@ -70,4 +70,20 @@ public class MyData {
     public List<String> getMain_RecycleList(){
         return Arrays.asList(main_RecycleList);
     }
+
+//    央视 CCTV-1,http://117.144.248.49/HDcctv1.m3u8?authCode=07110409322147352675&stbId=006001FF0018120000060019F0D49567&Contentid=8813322615956633846&mos=jbjhhzstsl&livemode=1&channel-id=wasusyt
+//    央视 CCTV-2,http://117.144.248.49/z.m3u8?authCode=07110409322147352675&stbId=003801FF001381001513BC20BA6E48D6&Contentid=8878432746825677699&mos=jbjhhzstsl&livemode=1&channel-id=wasusyt
+//    央视 CCTV-3,http://117.144.248.49/z.m3u8?authCode=07110409322147352675&stbId=003801FF001381001513BC20BA6E48D6&Contentid=4890526699577299046&mos=jbjhhzstsl&livemode=1&channel-id=wasusyt
+//    央视 CCTV-4,http://117.144.248.49/z.m3u8?authCode=07110409322147352675&stbId=003801FF001381001513BC20BA6E48D6&Contentid=4719673858948437836&mos=jbjhhzstsl&livemode=1&channel-id=wasusyt
+//    央视 CCTV-5,http://117.144.248.49/cctv5.m3u8?authCode=07110409322147352675&stbId=003801FF001381001513BC20BA6E48D6&Contentid=4867251683694877276&mos=jbjhhzstsl&livemode=1&channel-id=wasusyt
+//    央视 CCTV-6,http://117.144.248.49/cctv6.m3u8?authCode=07110409322147352675&stbId=003801FF001381001513BC20BA6E48D6&Contentid=6994512760913257617&mos=jbjhhzstsl&livemode=1&channel-id=wasusyt
+//    央视 CCTV-7,http://117.144.248.49/z.m3u8?authCode=07110409322147352675&stbId=003801FF001381001513BC20BA6E48D6&Contentid=7823098201377312515&mos=jbjhhzstsl&livemode=1&channel-id=wasusyt
+//    央视 CCTV-8,http://117.144.248.49/z.m3u8?authCode=07110409322147352675&stbId=003801FF001381001513BC20BA6E48D6&Contentid=8967744667154419073&mos=jbjhhzstsl&livemode=1&channel-id=wasusyt
+//    央视 CCTV-9,http://117.144.248.49/z.m3u8?authCode=07110409322147352675&stbId=003801FF001381001513BC20BA6E48D6&Contentid=6350727550077620987&mos=jbjhhzstsl&livemode=1&channel-id=wasusyt
+//    央视 CCTV-10,http://117.144.248.49/z.m3u8?authCode=07110409322147352675&stbId=003801FF001381001513BC20BA6E48D6&Contentid=7284663355496915828&mos=jbjhhzstsl&livemode=1&channel-id=wasusyt
+//    央视 CCTV-11,http://117.144.248.49/z.m3u8?authCode=07110409322147352675&stbId=003801FF001381001513BC20BA6E48D6&Contentid=8983629816140945539&mos=jbjhhzstsl&livemode=1&channel-id=wasusyt
+//    央视 CCTV-12,http://117.144.248.49/z.m3u8?authCode=07110409322147352675&stbId=003801FF001381001513BC20BA6E48D6&Contentid=6865782700657580918&mos=jbjhhzstsl&livemode=1&channel-id=wasusyt
+//    央视 CCTV-13,http://117.144.248.49/z.m3u8?authCode=07110409322147352675&stbId=003801FF001381001513BC20BA6E48D6&Contentid=8593685226043367730&mos=jbjhhzstsl&livemode=1&channel-id=wasusyt
+//    央视 CCTV-14,http://117.144.248.49/z.m3u8?authCode=07110409322147352675&stbId=006001FF0018120000060019F0D496A1&Contentid=6113730085955692619&mos=jbjhhzstsl&livemode=1&channel-id=wasusyt
+//    央视 CCTV-15,http://117.144.248.49/z.m3u8?authCode=07110409322147352675&stbId=006001FF0018120000060019F0D496A1&Contentid=5565738654152032083&mos=jbjhhzstsl&livemode=1&channel-id=wasusyt
 }
