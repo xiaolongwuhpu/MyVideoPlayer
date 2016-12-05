@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/cl_default"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_h"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableBottom="@color/colorAccent"
+        android:text="半屏播放"
+        android:textColor="@color/selecttext"/>
+
+    <Button
+        android:id="@+id/btn_v"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableBottom="@color/colorAccent"
+        android:text="竖屏播放"
+        android:textColor="@color/selecttext"/>
+
+  <!--  <Button
+        android:id="@+id/btn_live"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableBottom="@color/colorAccent"
+        android:text="直播"
+        android:textColor="@color/selecttext"/>-->
+
+    <Button
+        android:id="@+id/btn_origin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableBottom="@color/colorAccent"
+        android:text="原生ijkplayer播放"
+        android:textColor="@color/selecttext"/>
+</LinearLayout>
