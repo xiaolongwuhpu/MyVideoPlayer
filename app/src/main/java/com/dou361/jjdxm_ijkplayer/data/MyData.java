@@ -50,8 +50,12 @@ public class MyData {
                     String line;
                     //分行读取
                     while ((line = buffreader.readLine()) != null) {
-                        list1.add(line.substring(0,line.indexOf(",")).trim());
-                        list2.add(line.substring(line.indexOf(",")+1).trim());
+                        int index = line.indexOf(",");
+                        if(index != -1){
+                            list1.add(line.substring(0,index).trim());
+                            list2.add(line.substring(index+1).trim());
+                        }
+
                         builder.append(line + "\n");
                     }
                     instream.close();
@@ -66,7 +70,7 @@ public class MyData {
         return list;
     }
 
-    String[] main_RecycleList = new String[]{"直播","影视"};
+    String[] main_RecycleList = new String[]{"电视直播","电影直播","影视专区","电视剧","综艺","搞笑"};
     public List<String> getMain_RecycleList(){
         return Arrays.asList(main_RecycleList);
     }

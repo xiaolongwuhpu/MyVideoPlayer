@@ -10,6 +10,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:text="T.T"
-        android:textSize="16sp" />
+        android:padding="3dp"
+        android:textSize="15sp" />
 
 </RelativeLayout>
