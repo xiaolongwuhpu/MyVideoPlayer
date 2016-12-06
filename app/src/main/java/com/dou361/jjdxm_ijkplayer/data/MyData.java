@@ -38,7 +38,7 @@ public class MyData {
         list2 =  new ArrayList<>();
         list = new ArrayList<>();
         File file = new File(Environment.getExternalStorageDirectory(),
-                "abc.txt");
+                "tv.txt");
         //如果path是传递过来的参数，可以做一个非目录的判断
         if (file.isDirectory()) {
         } else {
