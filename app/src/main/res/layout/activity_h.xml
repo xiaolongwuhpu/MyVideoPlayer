@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SelectScreenActivity">
+    tools:context="com.longwu.ijkplayer.SelectScreenActivity">
 
     <include
         layout="@layout/simple_player_view_player"

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">无限制影音</string>
+    <string name="title_activity_base">BaseActivity</string>
 </resources>

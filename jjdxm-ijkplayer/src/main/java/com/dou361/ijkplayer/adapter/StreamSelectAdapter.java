@@ -9,7 +9,6 @@ import android.widget.TextView;
 
 import com.dou361.ijkplayer.R;
 import com.dou361.ijkplayer.bean.VideoijkBean;
-import com.dou361.ijkplayer.utils.ResourceUtils;
 
 import java.util.List;
 
