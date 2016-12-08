@@ -14,7 +14,9 @@ import com.dou361.ijkplayer.listener.OnPlayerBackListener;
 import com.dou361.ijkplayer.listener.OnShowThumbnailListener;
 import com.dou361.ijkplayer.widget.PlayStateParams;
 import com.dou361.ijkplayer.widget.PlayerView;
-
+/**
+ * Created by longwu on 2016/12/03.
+ */
 public class PlayerActivity extends Activity {
 
     private PlayerView player;

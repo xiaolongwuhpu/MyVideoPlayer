@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.os.Bundle;
-import android.os.Environment;
 import android.os.PowerManager;
 import android.support.annotation.Nullable;
 import android.view.View;
@@ -19,11 +18,12 @@ import com.dou361.ijkplayer.widget.PlayStateParams;
 import com.dou361.ijkplayer.widget.PlayerView;
 import com.dou361.jjdxm_ijkplayer.utlis.MediaUtils;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/**
+ * Created by longwu on 2016/12/03.
+ */
 public class HPlayerActivity extends Activity {
 
     private PlayerView player;

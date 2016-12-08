@@ -13,7 +13,9 @@ import com.dou361.ijkplayer.listener.OnShowThumbnailListener;
 import com.dou361.ijkplayer.widget.PlayStateParams;
 import com.dou361.ijkplayer.widget.PlayerView;
 import com.dou361.jjdxm_ijkplayer.utlis.MediaUtils;
-
+/**
+ * Created by longwu on 2016/12/03.
+ */
 public class OriginPlayerActivity extends Activity {
 
     private PlayerView player;

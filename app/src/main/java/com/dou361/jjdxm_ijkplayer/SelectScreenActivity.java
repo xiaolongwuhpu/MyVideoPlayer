@@ -8,7 +8,9 @@ import android.view.Window;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-
+/**
+ * Created by longwu on 2016/12/03.
+ */
 public class SelectScreenActivity extends Activity implements View.OnClickListener {
 static  String myurl,tv_title;
     @Override

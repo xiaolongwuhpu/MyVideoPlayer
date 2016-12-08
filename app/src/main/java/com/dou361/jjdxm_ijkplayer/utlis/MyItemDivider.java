@@ -8,7 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 /**
- * Created by wujing on 2016/12/01.
+ * Created by longwu on 2016/12/01.
  */
 public class MyItemDivider extends RecyclerView.ItemDecoration {
     private Drawable mDrawable;

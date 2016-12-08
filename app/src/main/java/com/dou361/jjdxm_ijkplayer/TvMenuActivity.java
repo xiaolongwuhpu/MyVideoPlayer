@@ -15,7 +15,9 @@ import com.dou361.jjdxm_ijkplayer.utlis.MyItemDivider;
 
 import java.util.List;
 
-
+/**
+ * Created by longwu on 2016/12/03.
+ */
 public class TvMenuActivity extends Activity {
     RecyclerView mRecyclerView;
     private MyAdapter mMyAdapter;

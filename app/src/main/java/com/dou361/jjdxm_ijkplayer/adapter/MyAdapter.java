@@ -13,7 +13,7 @@ import com.dou361.jjdxm_ijkplayer.R;
 import java.util.List;
 
 /**
- * Created by yxm2909 on 2016/7/13.
+ * Created by longwu on 2016/12/03.
  */
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
