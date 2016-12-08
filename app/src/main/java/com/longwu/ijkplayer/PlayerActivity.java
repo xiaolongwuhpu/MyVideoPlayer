@@ -1,9 +1,12 @@
 package com.longwu.ijkplayer;
 
+import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.os.PowerManager;
+import android.os.PowerManager.WakeLock;
 import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.ImageView;
@@ -56,6 +59,21 @@ public class PlayerActivity extends BaseActivity {
                     }
                 })
                 .startPlay();
+      //  init_keepon();
+    }
+    private PowerManager powerManager = null;
+    private WakeLock wakeLock = null;
+    private void init_keepon(){
+        powerManager = (PowerManager) this.getSystemService(Service.POWER_SERVICE);
+        wakeLock = this.powerManager.newWakeLock(PowerManager.SCREEN_DIM_WAKE_LOCK, "My Lock");
+        //是否需计算锁的数量
+        wakeLock.setReferenceCounted(false);
+
+        //请求常亮，onResume()
+        wakeLock.acquire();
+
+        //取消屏幕常亮，onPause()
+//        wakeLock.release();
     }
     private void getintentData() {
         Intent it = getIntent();
