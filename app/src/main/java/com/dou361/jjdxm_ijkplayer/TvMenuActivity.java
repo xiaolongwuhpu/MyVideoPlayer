@@ -13,27 +13,45 @@ import com.dou361.jjdxm_ijkplayer.adapter.MyAdapter;
 import com.dou361.jjdxm_ijkplayer.data.MyData;
 import com.dou361.jjdxm_ijkplayer.utlis.MyItemDivider;
 
+import java.util.List;
+
+
 public class TvMenuActivity extends Activity {
     RecyclerView mRecyclerView;
     private MyAdapter mMyAdapter;
+    private List<String> list_name;
+    private List<String> list_value;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tvmenu);
-        MyData.getinstance().getTxtFilelist("");
-        mMyAdapter = new MyAdapter(TvMenuActivity.this, MyData.getinstance().list1);
+
+
+        Intent it = getIntent();
+        int type = it.getIntExtra("type", 0);
+        if (type == 0) {
+            MyData.getinstance().getTxtFilelist("tv.txt");
+        } else if (type == 1) {
+            MyData.getinstance().getTxtFilelist("foreign_show.txt");
+        }
+        else if (type == 2) {
+            MyData.getinstance().getTxtFilelist("sex.txt");
+        }
+        list_name = MyData.getinstance().list1;
+        list_value = MyData.getinstance().list2;
+        mMyAdapter = new MyAdapter(TvMenuActivity.this, list_name);
         mRecyclerView = (RecyclerView) findViewById(R.id.id_recyclerview);
         mRecyclerView.setLayoutManager(new GridLayoutManager(this, 3));
         mRecyclerView.setAdapter(mMyAdapter);
         mRecyclerView.setItemAnimator(new DefaultItemAnimator());
-        mRecyclerView.addItemDecoration(new MyItemDivider(this,R.drawable.rv_main_item_divider));
+        mRecyclerView.addItemDecoration(new MyItemDivider(this, R.drawable.rv_main_item_divider));
         mMyAdapter.setOnItemClickListener(new MyAdapter.OnItemClickListener() {
             @Override
             public void onClick(View parent, int position) {
-                Intent intent = new Intent(TvMenuActivity.this, SelectScreenActivity.class);
-                intent.putExtra("title"/*MyData.getinstance().getNameData().get(position)*/,MyData.getinstance().list1.get(position) );
-                intent.putExtra("url"/*MyData.getinstance().getNameData().get(position)*/, MyData.getinstance().list2.get(position));
+                Intent intent = new Intent(TvMenuActivity.this, PlayerActivity.class);
+                intent.putExtra("title"/*MyData.getinstance().getNameData().get(position)*/, list_name.get(position));
+                intent.putExtra("url"/*MyData.getinstance().getNameData().get(position)*/, list_value.get(position));
                 startActivity(intent);
             }
         });

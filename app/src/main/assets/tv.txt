@@ -1,0 +1,176 @@
+﻿CCTV1,http://14.18.17.142:9009/live/chid=1
+CCTV2,http://14.18.17.142:9009/live/chid=2
+CCTV3,http://14.18.17.142:9009/live/chid=8
+CCTV4,http://14.18.17.142:9009/live/chid=14
+CCTV5,http://14.18.17.142:9009/live/chid=9
+CCTV_5+HD,http://115.231.20.96/livehls1-cnc.wasu.cn/hd_cctv5jia/z.m3u8
+//CCTV_5+HD,http://218.92.209.33/livehls1-cnc.wasu.cn/hd_cctv5jia/z.m3u8
+CCTV6,http://14.18.17.142:9009/live/chid=10
+//CCTV_6电影,http://221.181.100.24:8088/ws_w/cctv6/711/01.m3u8
+CCTV7,http://14.18.17.142:9009/live/chid=3
+CCTV8,http://14.18.17.142:9009/live/chid=11
+CCTV9,http://14.18.17.142:9009/live/chid=15
+CCTV10,http://14.18.17.142:9009/live/chid=4
+CCTV11,http://14.18.17.142:9009/live/chid=5
+CCTV12,http://14.18.17.142:9009/live/chid=6
+//CCTV-12法制与社会,http://122.96.52.11:8080/gitv_live/CCTV-12/CCTV-12.m3u8
+//CCTV13,http://14.18.17.142:9009/live/chid=13
+CCTV-13新闻,http://122.96.52.11:8080/gitv_live/CCTV-13/CCTV-13.m3u8
+CCTV14,http://14.18.17.142:9009/live/chid=12
+CCTV15,http://14.18.17.142:9009/live/chid=7
+央视 CCTV怀旧剧场,http://221.181.100.24:8088/ws_v/hjjc/hjjc711/711/01.m3u8?internalid=1479564357363000&is_ec=0
+央视 CCTV风云音乐,http://221.181.100.24:8088/ws_v/fyyy/fyyy711/711/01.m3u8?internalid=1479564938187405&is_ec=0
+中国教育-1,http://106.120.175.80:55336/tslive/c2_ct_cetv1_zgjy1_smooth_t10/c2_ct_cetv1_zgjy1_smooth_t10.m3u8
+浙江 钱江都市,http://218.92.209.33/padlive2-cnc.wasu.cn/ztv2/z.m3u8
+浙江 经视,http://218.92.209.33/padlive2-cnc.wasu.cn/ztv3/z.m3u8
+浙江 教育科技,http://218.92.209.33/padlive2-cnc.wasu.cn/ztv4/z.m3u8
+浙江 影视娱乐,http://218.92.209.33/padlive2-cnc.wasu.cn/ztv5/z.m3u8
+浙江 民生休闲,http://218.92.209.33/padlive2-cnc.wasu.cn/ztv6/z.m3u8
+浙江 公共农村,http://218.92.209.33/padlive2-cnc.wasu.cn/ztv7/z.m3u8
+浙江 华数TV,http://218.92.209.33/padlive2-cnc.wasu.cn/wasutv/z.m3u8
+杭州 综合,http://218.92.209.33/padlive2-cnc.wasu.cn/htv1/z.m3u8
+杭州 西湖明珠,http://218.92.209.33/padlive2-cnc.wasu.cn/htv2/z.m3u8
+杭州 影视,http://218.92.209.33/padlive2-cnc.wasu.cn/htv4/z.m3u8
+杭州 体育少儿,http://218.92.209.33/padlive2-cnc.wasu.cn/htv5/z.m3u8
+卫视 浙江卫视HD,http://live.g3proxy.lecloud.com/gslb?stream_id=zhejiangHD_1800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&playid=1&termid=3&play=0&pay=0&format=&mslice=8&expect=3&ostype=macos&hwtype=android#http://live.g3proxy.lecloud.com/gslb?stream_id=zhejiangHD_1800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&playid=1&termid=3&play=0&pay=0&format=&mslice=8&expect=3&ostype=macos&hwtype=android#http://218.92.209.33/padlive1-cnc.wasu.cn/hd_zjws/z.m3u8
+卫视 湖南卫视HD,http://183.207.255.190/live/program/live/hnwshd/4000000/mnf.m3u8#http://218.92.209.33/padlive1-cnc.wasu.cn/hd_hnws/z.m3u8
+卫视 北京卫视HD,http://218.92.209.33/padlive1-cnc.wasu.cn/hd_bjws/z.m3u8
+卫视 江苏卫视HD,http://218.92.209.33/padlive1-cnc.wasu.cn/hd_jsws/z.m3u8
+卫视 深圳卫视HD,http://218.92.209.33/padlive1-cnc.wasu.cn/hd_szws/z.m3u8
+卫视 山东卫视HD,http://218.92.209.33/padlive1-cnc.wasu.cn/hd_sdws/z.m3u8
+卫视 湖北卫视HD,http://218.92.209.33/padlive1-cnc.wasu.cn/hd_hbws/z.m3u8
+天津 卫视HD,http://218.92.209.33/padlive1-cnc.wasu.cn/hd_tjws/z.m3u8
+卫视 广东卫视HD,http://218.92.209.33/padlive1-cnc.wasu.cn/hd_gdws/z.m3u8
+卫视 黑龙江卫视HD,http://218.92.209.33/padlive1-cnc.wasu.cn/hd_hljws/z.m3u8
+河南卫视,http://106.120.175.80:55336/tslive/c12_ct_hntv1_henws_smooth_t10/c12_ct_hntv1_henws_smooth_t10.m3u8
+辽宁卫视,http://106.120.175.80:55336/tslive/c29_ct_lntv1_lnws_smooth_t10/c29_ct_lntv1_lnws_smooth_t10.m3u8
+安徽卫视,http://106.120.175.80:55336/tslive/c12_ct_ahtv1_ahws_smooth_t10/c12_ct_ahtv1_ahws_smooth_t10.m3u8
+深圳卫视,http://106.120.175.80:55336/tslive/c8_ct_sztv1_szws_smooth_t10/c8_ct_sztv1_szws_smooth_t10.m3u8
+吉林卫视,http://106.120.175.80:55336/tslive/c15_ct_jilin1_jlws_smooth_t10/c15_ct_jilin1_jlws_smooth_t10.m3u8
+陕西卫视,http://106.120.175.80:55336/tslive/c25_ct_shxitv1_sxws_smooth_t10/c25_ct_shxitv1_sxws_smooth_t10.m3u8
+广西卫视,http://106.120.175.80:55336/tslive/c12_ct_guanxi1_gxws_smooth_t10/c12_ct_guanxi1_gxws_smooth_t10.m3u8
+厦门卫视,http://106.120.175.80:55336/tslive/c26_ct_xmtv5_xmws_smooth_t10/c26_ct_xmtv5_xmws_smooth_t10.m3u8
+江西卫视,http://106.120.175.80:55336/tslive/c26_ct_jxtv1_jxws_smooth_t10/c26_ct_jxtv1_jxws_smooth_t10.m3u8
+五星 体育1080P,http://183.207.255.190:80/live/program/live/ssty/4000000/mnf.m3u8
+高清 东方卫视1080P,http://183.207.255.190:80/live/program/live/hddfws/4000000/mnf.m3u8
+高清 上海KNEWS24,http://hls.live.kksmg.com/live/live24h/playlist.m3u8
+华娱卫视,http://as.luoke.net.cn/hd/nxcatv.php?id=106
+凤凰卫视中文,http://as.luoke.net.cn/hd/nxcatv.php?id=107
+凤凰卫视中文HD,http://111.39.226.103:8112/120000001001/wlds:8080/ysten-business/live/fhchinese/.m3u8
+凤凰卫视资讯,http://as.luoke.net.cn/hd/nxcatv.php?id=110
+凤凰卫视资讯HD,http://111.39.226.103:8112/120000001001/wlds:8080/ysten-business/live/fhzixun/.m3u8
+星空卫视,http://as.luoke.net.cn/hd/nxcatv.php?id=108
+TVB8娱乐,http://as.luoke.net.cn/hd/nxcatv.php?id=109
+星空影院,http://as.luoke.net.cn/hd/nxcatv.php?id=111
+凤凰卫视电影,http://as.luoke.net.cn/hd/nxcatv.php?id=112
+Channel[V]亚洲音乐,http://as.luoke.net.cn/hd/nxcatv.php?id=113
+国家地理,http://as.luoke.net.cn/hd/nxcatv.php?id=114
+HBO亚洲电影,http://as.luoke.net.cn/hd/nxcatv.php?id=115
+天映频道,http://as.luoke.net.cn/hd/nxcatv.php?id=116
+求索纪录高清,http://as.luoke.net.cn/hd/nxcatv.php?id=158
+求索动物高清,http://as.luoke.net.cn/hd/nxcatv.php?id=159
+求索生活高清,http://as.luoke.net.cn/hd/nxcatv.php?id=160
+求索科学高清,http://as.luoke.net.cn/hd/nxcatv.php?id=161
+高清 精品体育YST,http://111.39.226.103:8112/120000001001/wlds:8080/ysten-business/live/jtiyu/.m3u8
+高清 健康有约YST,http://111.39.226.103:8112/120000001001/wlds:8080/ysten-business/live/ljiankangyouyue/.m3u8
+高清 军事评论YST,http://111.39.226.103:8112/120000001001/wlds:8080/ysten-business/live/junshipl/.m3u8
+高清 精品记录YST,http://111.39.226.103:8112/120000001001/wlds:8080/ysten-business/live/jingpinjl/.m3u8
+高清 精品电影YST,http://111.39.226.103:8112/120000001001/wlds:8080/ysten-business/live/jdianying/.m3u8
+高清 精品大剧YST,http://111.39.226.103:8112/120000001001/wlds:8080/ysten-business/live/jdaju/.m3u8
+高清 古装剧场YST,http://111.39.226.103:8112/120000001001/wlds:8080/ysten-business/live/guzhuangjc/.m3u8
+高清 家庭剧场YST,http://111.39.226.103:8112/120000001001/wlds:8080/ysten-business/live/jiatingjc/.m3u8
+高清 爱情喜剧YST,http://111.39.226.103:8112/120000001001/wlds:8080/ysten-business/live/aiqingxj/.m3u8
+高清 军旅剧场YST,http://111.39.226.103:8112/120000001001/wlds:8080/ysten-business/live/junlvjc/.m3u8
+高清 动作电影YST,http://111.39.226.103:8112/120000001001/wlds:8080/ysten-business/live/dongzuody/.m3u8
+高清 明星大片YST,http://111.39.226.103:8112/120000001001/wlds:8080/ysten-business/live/mingxingdp/.m3u8
+高清 海外剧场YST,http://111.39.226.103:8112/120000001001/wlds:8080/ysten-business/live/xiqumd/.m3u8
+高清 惊悚悬疑YST,http://111.39.226.103:8112/120000001001/wlds:8080/ysten-business/live/jingsongxy/.m3u8
+高清 动画王国YST,http://111.39.226.103:8112/120000001001/wlds:8080/ysten-business/live/donghuawg/.m3u8
+高清影院1,http://dlhls.cdn.zhanqi.tv/zqlive/71720_arek4.m3u8
+高清影院2,http://dlhls.cdn.zhanqi.tv/zqlive/37047_KWOM9.m3u8
+高清影院3,http://dlhls.cdn.zhanqi.tv/zqlive/2869_tUPFz.m3u8
+高清影院4,http://dlhls.cdn.zhanqi.tv/zqlive/7032_0s2qn.m3u8
+高清影院5,http://dlhls.cdn.zhanqi.tv/zqlive/20910_uUMgC.m3u8
+高清影院6,http://dlhls.cdn.zhanqi.tv/zqlive/24472_k75qU.m3u8
+高清影院7,http://dlhls.cdn.zhanqi.tv/zqlive/35180_KUDhx.m3u8
+高清影院8,http://dlhls.cdn.zhanqi.tv/zqlive/35349_iXsXw.m3u8
+高清影院9,http://dlhls.cdn.zhanqi.tv/zqlive/75885_IvfFq.m3u8
+高清影院10,http://dlhls.cdn.zhanqi.tv/zqlive/76932_BZx6W.m3u8
+高清影院11,http://dlhls.cdn.zhanqi.tv/zqlive/43720_qvSDI.m3u8
+高清影院12,http://dlhls.cdn.zhanqi.tv/zqlive/45188_oT6Ed.m3u8
+高清影院13,http://dlhls.cdn.zhanqi.tv/zqlive/45338_MRc2N.m3u8
+高清影院14,http://dlhls.cdn.zhanqi.tv/zqlive/49858_wgGj1.m3u8
+高清影院15,http://dlhls.cdn.zhanqi.tv/zqlive/53346_ESoth.m3u8
+高清影院16,http://dlhls.cdn.zhanqi.tv/zqlive/53706_ocHOH.m3u8
+高清影院17,http://dlhls.cdn.zhanqi.tv/zqlive/54770_1aw2J.m3u8
+高清影院18,http://dlhls.cdn.zhanqi.tv/zqlive/71720_arek4.m3u8
+高清影院19,http://dlhls.cdn.zhanqi.tv/zqlive/73622_IIsRY.m3u8
+高清影院20,http://dlhls.cdn.zhanqi.tv/zqlive/99815_VmbZY.m3u8
+高清影院21,http://dlhls.cdn.zhanqi.tv/zqlive/21333_CvnhE.m3u8
+高清影院22,http://dlhls.cdn.zhanqi.tv/zqlive/99815_VmbZY.m3u8
+高清影院23,http://dlhls.cdn.zhanqi.tv/zqlive/100804_3yFeJ.m3u8
+高清影院24,http://dlhls.cdn.zhanqi.tv/zqlive/101497_uqd0M.m3u8
+高清影院25,http://dlhls.cdn.zhanqi.tv/zqlive/102444_ZGmRp.m3u8
+高清影院26,http://dlhls.cdn.zhanqi.tv/zqlive/105671_a8aBa.m3u8
+高清影院27,http://dlhls.cdn.zhanqi.tv/zqlive/59855_yIWkv.m3u8
+高清影院28,http://dlhls.cdn.zhanqi.tv/zqlive/73622_IIsRY.m3u8
+高清影院29,http://dlhls.cdn.zhanqi.tv/zqlive/21333_CvnhE.m3u8
+高清影院31,http://dlhls.cdn.zhanqi.tv/zqlive/37047_KWOM9.m3u8
+高清影院32,http://dlhls.cdn.zhanqi.tv/zqlive/2869_tUPFz.m3u8
+高清影院33,http://dlhls.cdn.zhanqi.tv/zqlive/20910_uUMgC.m3u8
+高清影院34,http://dlhls.cdn.zhanqi.tv/zqlive/30647_JIjP2.m3u8
+高清影院35,http://dlhls.cdn.zhanqi.tv/zqlive/35180_KUDhx.m3u8
+高清影院36,http://dlhls.cdn.zhanqi.tv/zqlive/35349_iXsXw.m3u8
+高清影院37,http://dlhls.cdn.zhanqi.tv/zqlive/43720_qvSDI.m3u8
+高清影院38,http://dlhls.cdn.zhanqi.tv/zqlive/40051_ruOu5.m3u8
+高清影院39,http://dlhls.cdn.zhanqi.tv/zqlive/45188_oT6Ed.m3u8
+高清影院40,http://dlhls.cdn.zhanqi.tv/zqlive/49427_jmACJ.m3u8
+高清影院41,http://dlhls.cdn.zhanqi.tv/zqlive/49858_wgGj1.m3u8
+高清影院42,http://dlhls.cdn.zhanqi.tv/zqlive/53346_ESoth.m3u8
+高清影院43,http://dlhls.cdn.zhanqi.tv/zqlive/54770_1aw2J.m3u8
+高清影院44,http://dlhls.cdn.zhanqi.tv/zqlive/69178_YHRUs.m3u8
+高清影院45,http://dlhls.cdn.zhanqi.tv/zqlive/71720_arek4.m3u8
+高清影院47,http://dlhls.cdn.zhanqi.tv/zqlive/93774_g0UdM.m3u8
+高清影院48,http://dlhls.cdn.zhanqi.tv/zqlive/88780_QNQo0.m3u8
+高清影院49,http://dlhls.cdn.zhanqi.tv/zqlive/99815_VmbZY.m3u8
+高清影院50,http://dlhls.cdn.zhanqi.tv/zqlive/102444_ZGmRp.m3u8
+高清影院51,http://dlhls.cdn.zhanqi.tv/zqlive/73622_IIsRY.m3u8
+乐迷,http://live.gslb.letv.com/gslb?stream_id=lb_lm_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+戏曲,http://live.gslb.letv.com/gslb?stream_id=lb_xiqu_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+喜剧,http://live.gslb.letv.com/gslb?stream_id=lb_comedy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+跟播,http://live.gslb.letv.com/gslb?stream_id=lb_genbo_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+好莱坞,http://live.gslb.letv.com/gslb?stream_id=lb_hlw_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+电视剧1,http://live.gslb.letv.com/gslb?stream_id=lb_tv_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1       
+电视剧2,http://live.gslb.letv.com/gslb?stream_id=lb_yst_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+自制剧,http://live.gslb.letv.com/gslb?stream_id=lb_make_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+电影片花,http://live.gslb.letv.com/gslb?stream_id=lb_trailer_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+CHC高清电影,http://kk.luoke.net.cn/aishang.php?id=chchd
+CHC家庭影院,http://kk.luoke.net.cn/aishang.php?id=chcjt
+CHC动作电影,http://kk.luoke.net.cn/aishang.php?id=chcdz
+CHC高清电影,http://as.luoke.net.cn/hd/nxcatv.php?id=121
+CHC家庭影院,http://as.luoke.net.cn/hd/nxcatv.php?id=066
+CHC动作电影,http://as.luoke.net.cn/hd/nxcatv.php?id=100
+星影,http://kk.luoke.net.cn/aishang.php?id=asxy
+精选,http://kk.luoke.net.cn/aishang.php?id=asjx
+家庭影院,http://kk.luoke.net.cn/aishang.php?id=asjtyy
+动作影院,http://kk.luoke.net.cn/aishang.php?id=asdzyy
+喜剧影院,http://kk.luoke.net.cn/aishang.php?id=asxjyy
+HOT亚洲影院高清,http://as.luoke.net.cn/hd/nxcatv.php?id=162
+HOT欧美影院高清,http://as.luoke.net.cn/hd/nxcatv.php?id=163
+HOT精品剧场高清,http://as.luoke.net.cn/hd/nxcatv.php?id=164
+新视觉HD,http://as.luoke.net.cn/hd/nxcatv.php?id=165
+HOT风尚音乐高清,http://as.luoke.net.cn/hd/nxcatv.php?id=166
+HOT少儿动漫高清,http://as.luoke.net.cn/hd/nxcatv.php?id=167
+3D试验频道高清,http://as.luoke.net.cn/hd/nxcatv.php?id=168
+HOT高清娱乐高清,http://as.luoke.net.cn/hd/nxcatv.php?id=169
+HOT探索记录高清,http://as.luoke.net.cn/hd/nxcatv.php?id=170
+优漫卡通,http://as.luoke.net.cn/hd/nxcatv.php?id=172
+惊悚午夜场,http://106.120.175.80:55336/tslive/c1_lb_jingnawuyechang_720p_t10/c1_lb_jingnawuyechang_720p_t10.m3u8
+HKC电影一HD,http://httpdvb.slave.pygdzhcs.com:13164/playurl?playtype=live&protocol=hls&accesstoken=R57C42748U3DF56625K7735C9AAM2FB197EW505183&programid=4200000157&auth=no
+魅力音乐,http://httpdvb.slave.pygdzhcs.com:13164/playurl?playtype=live&protocol=http&accesstoken=R5799673DU3F226625K7735CA24M2FB1533W407791&programid=4200000090&playtoken=ABCDEFGH&auth=no
+都市剧场,http://httpdvb.slave.pygdzhcs.com:13164/playurl?playtype=live&protocol=http&accesstoken=R5799673DU3F226625K7735CA24M2FB1533W407791&programid=4200000095&playtoken=ABCDEFGH&auth=no
+欢笑剧场,http://httpdvb.slave.pygdzhcs.com:13164/playurl?playtype=live&protocol=http&accesstoken=R5799673DU3F226625K7735CA24M2FB1533W407791&programid=4200000089&playtoken=ABCDEFGH&auth=no
+法制天地,http://httpdvb.slave.pygdzhcs.com:13164/playurl?playtype=live&protocol=http&accesstoken=R5799673DU3F226625K7735CA24M2FB1533W407791&programid=4200000088&playtoken=ABCDEFGH&auth=no
+劲爆体育,http://httpdvb.slave.pygdzhcs.com:13164/playurl?playtype=live&protocol=http&accesstoken=R5799673DU3F226625K7735CA24M2FB1533W407791&programid=4200000045&playtoken=ABCDEFGH&auth=no
+新视觉HD,http://httpdvb.slave.pygdzhcs.com:13164/playurl?playtype=live&protocol=http&accesstoken=R5799673DU3F226625K7735CA24M2FB1533W407791&programid=4200000147&playtoken=ABCDEFGH&auth=no
+全纪实,http://httpdvb.slave.pygdzhcs.com:13164/playurl?playtype=live&protocol=http&accesstoken=R5799673DU3F226625K7735CA24M2FB1533W407791&programid=4200000046&playtoken=ABCDEFGH&auth=no

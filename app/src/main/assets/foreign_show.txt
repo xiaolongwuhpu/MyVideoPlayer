@@ -1,0 +1,60 @@
+﻿美-ABC NEWS,http://abclive.abcnews.com/i/abc_live4@136330/index_1200_av-b.m3u8
+美-CNN,http://210.242.52.97/sta/ch36.m3u8
+美-CNN,http://210.209.13.37/sta/ch5168036.m3u8
+美-CNN国际,http://120.52.73.75/58.99.33.1:1935/liveedge2/live_6_2.stream/chunklist_wlive.m3u8?checkCode=37050688asdfsdfsadf&aa=&as=&dr=&mmmm
+美-WGN,http://wgntribune-lh.akamaihd.net/i/WGNPrimary_1@304622/index_700_av-p.m3u8?sd=10&rebase=on
+美-Bloomberg,http://60.55.12.181:80/live/5/45/cb33103d58714690956756236bf2e2b7.m3u8?chid=158481894&type=m3u8.web.cloudplay&k=75f631c4ae9147f2907b424ba4e8dcf3-3d11-1469426219&o=channelcenter&playback=0&cpn=29795&ppyunid=158481894
+美-Uctv,rtmp://ucsdtv-wowza.ucsd.edu:1935/live/live_800
+美-LLBN,rtmp://cp45648.live.edgefcs.net/live/T01587-latino@94847
+美国中文电视,http://ec.sinovision.net/video/ts/lv.m3u8
+美国中文电视,http://media3.sinovision.net:1935/live/livestream/playlist.m3u8
+美国中文电视,rtmp://media3.sinovision.net:1935/live/livestream
+美-NASA,http://nasatv-lh.akamaihd.net/i/NASA_101@319270/index_1000_av-p.m3u8
+美-NASA,http://nasatv-lh.akamaihd.net/i/NASA_101@319270/master.m3u8
+美-Ato moto,mmst://100automoto.tv/100livesport
+美-Auto Moto TV Gaz,mmst://100automoto.tv/100gaz
+RTV天和综合,http://www.rtvcdn.com.au:8082/TV0001.ts
+RTV天和新闻,http://www.rtvcdn.com.au:8082/TV0002.ts
+英-BBC,http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/BBCW/tu1_1.m3u8
+英-SkyNews,http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/04.m3u8
+英-LondonLive(LQ),http://bcoveliveios-i.akamaihd.net/hls/live/217434/3083279840001/master_900.m3u8
+英-PeaceTV (UK),rtmp://peace.fms.visionip.tv/live/b2b-peace_sky-live-25f-4x3-sdh_1
+itv,http://210.209.13.37/stc/ch168006.m3u8#http://210.209.13.37/stc/ch168036.m3u8#
+俄-Aelfa_TV,rtmp://ataka.tv/live/live
+俄-BNPTV,mms://bnptv.info:10801/
+俄-9VollnaTV,rtmp://176.9.127.102/live/myStream_1
+俄-Kontra,rtmp://flashcloud.mediacdn.com/live/kontratv
+俄-K1,http://ru-element.ru/playlist/playlist.php?ch=2&r=my
+俄-TV,http://ru-element.ru/playlist/playlist.php?ch=5&r=my
+意-SKY TG24,rtmp://cp49989.live.edgefcs.net/live/streamRM1@2564
+法-RMC,rtmp://fms.105.net:1935/live/rmc2
+法-RMC,rtmp://fms.105.net:1935/live/rmc1
+法-欧洲体育,http://esioslive6-i.akamaihd.net/hls/live/202892/AL_P_ESP1_FR_FRA/playlist_1000.m3u8
+法-WEO,http://str81.creacast.com/weo/low/playlist.m3u8
+法-GRAND LILLE TV,http://str81.creacast.com/grandlilletv/high/playlist.m3u8
+法-24,http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8
+伊-Quartarete 4,rtmp://wowza1.top-ix.org/quartaretetv/quartareteweb
+伊-Alhurra,rtmp://cp51007.live.edgefcs.net:443/live/Alhurra_Flash@15
+伊-Kayhan TV,rtmp://playout395.livestreamingcdn.com/live//Stream1
+伊-alkarmatv,rtmp://flash.alkarmatv.com:1935/karmatv_na/karmatv_na2
+泰國中文台,http://110.164.48.237:1935/tcctv_ch002/tcctv02.stream_live1/playlist.m3u8
+泰國中文台,http://110.164.48.237:1935:1935/tcctv_ch002/tcctv02.stream_live1/chunklist.m3u8
+泰-ATV1,rtmp://113.161.212.25/live/atv1
+印-NDTV,http://bglive-a.bitgravity.com/ndtv/247lo/live/native
+印-Kita,rtmp://www.kitatv.com/live/myStream
+越-Ba Ria ,rtmp://113.163.216.24/live/livestream
+VTV4,http://210.209.13.37/stc/ch168170.m3u8#http://210.209.13.37/stc/ch168160.m3u8#
+韩-朝鲜日报,rtmp://live.chosun.gscdn.com/live//tvchosun1.stream
+韩-朝鲜日报,http://live.chosun.gscdn.com/live/_definst_/tvchosun1.stream/playlist.m3u8
+韩-KTV,http://218.38.152.69:1935/da_live/72136989/mp4:ch001/playlist.m3u8
+韩-KTV,rtmp://218.38.152.31:1935/klive/klive.stream
+韩-KTV,rtmp://218.38.152.69:1935/da_live/72136989/mp4:ch001
+韩-KTV,rtmp://218.38.152.31/klive/klive.stream
+韩-CTS,http://111.118.21.79/etv1/phd28/playlist.m3u8
+韩-CTS,rtsp://ctsnanum.rtsp.vercoop.com:1935/CTS/_definst_/CTS_34312_100.sdp
+韩-CTS,rtmp://edge1.everyon.tv:1935/etv1/phd28
+KCTV-N,rtmp://122.202.129.136:1935/live/ch5
+KCTV-N,rtmp://122.202.129.136:1935/live/ch4
+CMC,rtmp://edge1.everyon.tv:1935/etv1sb/phd1
+MTN,rtmp://edge1.everyon.tv:1935/etv1sb/phd18
+RTN,rtmp://edge1.everyon.tv:1935/etv1sb/phd19

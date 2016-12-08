@@ -2,6 +2,7 @@ package com.dou361.jjdxm_ijkplayer;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -19,17 +20,17 @@ public class PlayerActivity extends Activity {
     private PlayerView player;
     private Context mContext;
     private View rootView;
-
+    String myurl,tv_title;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.mContext = this;
         rootView = getLayoutInflater().from(this).inflate(R.layout.simple_player_view_player, null);
         setContentView(rootView);
-//        String url = "http://183.6.245.249/v.cctv.com/flash/mp4video6/TMS/2011/01/05/cf752b1c12ce452b3040cab2f90bc265_h264818000nero_aac32-1.mp4";
-        String url = SelectScreenActivity.myurl;
+        getintentData();
+//        String url = SelectScreenActivity.myurl;
         player = new PlayerView(this, rootView)
-                .setTitle(SelectScreenActivity.tv_title)
+                .setTitle(tv_title)
                 .setScaleType(PlayStateParams.fitparent)
                 .forbidTouch(false)
                 .hideMenu(true)
@@ -43,7 +44,7 @@ public class PlayerActivity extends Activity {
                                 .into(ivThumbnail);
                     }
                 })
-                .setPlaySource(url)
+                .setPlaySource(myurl)
                 .setPlayerBackListener(new OnPlayerBackListener() {
                     @Override
                     public void onPlayerBack() {
@@ -52,6 +53,11 @@ public class PlayerActivity extends Activity {
                     }
                 })
                 .startPlay();
+    }
+    private void getintentData() {
+        Intent it = getIntent();
+        myurl = it.getStringExtra("url");
+        tv_title = it.getStringExtra("title");
     }
 
     @Override
