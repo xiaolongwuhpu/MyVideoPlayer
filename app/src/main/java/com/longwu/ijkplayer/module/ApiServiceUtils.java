@@ -2,6 +2,7 @@ package com.longwu.ijkplayer.module;
 
 import com.alibaba.fastjson.JSON;
 import com.longwu.ijkplayer.bean.LiveBean;
+import com.longwu.ijkplayer.bean.Result;
 
 import org.json.JSONObject;
 
@@ -23,6 +24,7 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
  */
 public class ApiServiceUtils {
 
+    static String jh_APPKEY="39bc9c14927bb5a5469a34931a6cd333";
     public static List<LiveBean> getLiveList() {
         List<LiveBean> list = new ArrayList<>();
         OkHttpClient client = new OkHttpClient
@@ -45,6 +47,36 @@ public class ApiServiceUtils {
             JSONObject js = new JSONObject(body);
             if (body != null) {
                 List<LiveBean> temp = JSON.parseArray(js.getJSONArray("roomList").toString(), LiveBean.class);
+                list.addAll(temp);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return list;
+    }
+
+    public static List<Result> getReultList() {
+        List<Result> list = new ArrayList<>();
+        OkHttpClient client = new OkHttpClient
+                .Builder()
+                .connectTimeout(30, TimeUnit.SECONDS)
+                .readTimeout(30, TimeUnit.SECONDS)
+                .build();
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("http://v.juhe.cn")
+                .client(client)
+                .addConverterFactory(ScalarsConverterFactory.create())
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+        ApiService mApiServicePresenter = retrofit.create(ApiService.class);
+        Call<String> call = mApiServicePresenter.dream("39bc9c14927bb5a5469a34931a6cd333");
+        Response<String> response = null;
+        try {
+            response = call.execute();
+            String body = response.body();
+            JSONObject js = new JSONObject(body);
+            if (body != null) {
+                List<Result> temp = JSON.parseArray(js.getJSONArray("result").toString(), Result.class);
                 list.addAll(temp);
             }
         } catch (Exception e) {

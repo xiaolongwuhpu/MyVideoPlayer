@@ -75,5 +75,4 @@ dependencies {
 //yumeng
     compile 'com.umeng.analytics:analytics:latest.integration'
     compile project(':PushSDK')
-
 }

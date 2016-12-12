@@ -1,12 +1,11 @@
 package com.longwu.ijkplayer;
 
 import android.Manifest;
-import android.app.Activity;
 import android.content.Context;
 import android.content.pm.PackageManager;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.content.ContextCompat;
 import android.view.WindowManager;
 import android.widget.Toast;
@@ -15,7 +14,7 @@ import com.umeng.analytics.MobclickAgent;
 import com.umeng.analytics.MobclickAgent.EScenarioType;
 
 
-public class BaseActivity extends Activity {
+public class BaseActivity extends FragmentActivity {
     Context mContext;
     private final String mPageName = "BaseActivity";
     @Override
@@ -69,20 +68,5 @@ public class BaseActivity extends Activity {
             }
         }
     }
-
-
-
-    private boolean canMakeSmores(){
-
-        return(Build.VERSION.SDK_INT>Build.VERSION_CODES.LOLLIPOP_MR1);
-
-    }
-
-    String[] perms = {"android.permission.WRITE_EXTERNAL_STORAGE"};
-
-    public static int permsRequestCode = 200;
-
-    public static final int EXTERNAL_STORAGE_REQ_CODE = 10 ;
-
 
 }

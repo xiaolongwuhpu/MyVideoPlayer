@@ -4,6 +4,8 @@ import android.content.Context;
 import android.os.Environment;
 import android.util.Log;
 
+import com.longwu.ijkplayer.frgment.MyFragment4;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
@@ -34,18 +36,23 @@ public class AssetsCopyTOSDcard {
                     copyFilesFassets(context,oldPath + "/" + fileName,newfilename+"/"+fileName);
                 }
             } else {//如果是文件
-                InputStream is = context.getAssets().open(oldPath);
+
                 String filepath = Environment.getExternalStorageDirectory().toString()+"/aliPayLoad/";
-                makeFilePath(filepath,newfilename);
-                FileOutputStream fos = new FileOutputStream(filepath+newfilename);
-                byte[] buffer = new byte[1024];
-                int byteCount=0;
-                while((byteCount=is.read(buffer))!=-1) {//循环从输入流读取 buffer字节
-                    fos.write(buffer, 0, byteCount);//将读取的输入流写入到输出流
+               boolean isneed_Copy =  isneed_CopyFile(filepath,newfilename);
+
+                if(!SharedPreferencesUtils.getBoolean(context, MyFragment4.ISNEEDCUSTOM)){
+                    InputStream is = context.getAssets().open(oldPath);
+                    FileOutputStream fos = new FileOutputStream(filepath+newfilename);
+                    byte[] buffer = new byte[1024];
+                    int byteCount=0;
+                    while((byteCount=is.read(buffer))!=-1) {//循环从输入流读取 buffer字节
+                        fos.write(buffer, 0, byteCount);//将读取的输入流写入到输出流
+                    }
+                    fos.flush();//刷新缓冲区
+                    is.close();
+                    fos.close();
                 }
-                fos.flush();//刷新缓冲区
-                is.close();
-                fos.close();
+
             }
         } catch (Exception e) {
             // TODO Auto-generated catch block
@@ -56,18 +63,21 @@ public class AssetsCopyTOSDcard {
     }
 
     // 生成文件
-    public File makeFilePath(String filePath, String fileName) {
+    public boolean isneed_CopyFile(String filePath, String fileName) {
         File file = null;
         makeRootDirectory(filePath);
         try {
             file = new File(filePath + fileName);
             if (!file.exists()) {
                 file.createNewFile();
+                return true;
+            }else{
+                return false;
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return file;
+        return false;
     }
 
     // 生成文件夹
