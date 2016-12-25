@@ -25,8 +25,10 @@ public interface ApiService {
 
     /**
      * 直播相关接口
+     * http://v.juhe.cn/dream/query
+     * q=%E5%A5%B3%E4%BA%BA&cid=&full=1&key=39bc9c14927bb5a5469a34931a6cd333
      */
-    @GET("/dream/category?key={key}")
-    Call<String> dream(@Query("key") String params);
+    @GET("/dream/query?")
+    Call<String> dream(@Query("q") String q,@Query("cid") int cid,@Query("full") int full,@Query("key") String key);
 
 }

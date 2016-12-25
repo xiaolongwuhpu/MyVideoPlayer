@@ -6,18 +6,20 @@ import android.content.Context;
 import android.util.Log;
 
 import com.longwu.ijkplayer.utlis.CrashHandler;
+import com.longwu.ijkplayer.utlis.FSScreen;
 import com.umeng.message.IUmengRegisterCallback;
 import com.umeng.message.PushAgent;
 
 import java.util.ArrayList;
 
 public class APP extends Application {
-    Context ctx;
+   public static  Context ctx;
 
     @Override
     public void onCreate() {
         super.onCreate();
         ctx = getApplicationContext();
+        FSScreen.myCtx = ctx;
         PushAgent mPushAgent = PushAgent.getInstance(ctx);
         //注册推送服务，每次调用register方法都会回调该接口
         mPushAgent.register(new IUmengRegisterCallback() {
@@ -25,7 +27,7 @@ public class APP extends Application {
             @Override
             public void onSuccess(String deviceToken) {
                 //注册成功会返回device token
-                Log.e("mytoken", "0000000000000000:"+deviceToken);
+                Log.e("mytoken", "++++++++++++++++++++++++++++:"+deviceToken);
             }
 
             @Override
@@ -37,7 +39,6 @@ public class APP extends Application {
         CrashHandler ch = CrashHandler.getInstance();
         ch.init(this);
         Thread.setDefaultUncaughtExceptionHandler(ch);
-    //    init();
     }
 
     ArrayList<Activity> list = new ArrayList<Activity>();

@@ -28,7 +28,7 @@ ext {
     //主程序版本
     minSdkVersion = 15
     versionCode = 1
-    versionName = "0.1.1612.10"
+    versionName = "0.1.1612.13"
     //library版本
     jjdxm_minSdkVersion = 9
     jjdxm_versionCode = 1

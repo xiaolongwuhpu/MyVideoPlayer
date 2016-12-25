@@ -1,10 +1,7 @@
 package com.longwu.ijkplayer.utlis;
 
 import android.content.Context;
-import android.os.Environment;
 import android.util.Log;
-
-import com.longwu.ijkplayer.frgment.MyFragment4;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -36,11 +33,11 @@ public class AssetsCopyTOSDcard {
                     copyFilesFassets(context,oldPath + "/" + fileName,newfilename+"/"+fileName);
                 }
             } else {//如果是文件
-
-                String filepath = Environment.getExternalStorageDirectory().toString()+"/aliPayLoad/";
+                String filepath = context.getExternalCacheDir().getPath()+"/";
+//                String filepath = Environment.getExternalStorageDirectory().toString()+"/aliPayLoad/";
                boolean isneed_Copy =  isneed_CopyFile(filepath,newfilename);
 
-                if(!SharedPreferencesUtils.getBoolean(context, MyFragment4.ISNEEDCUSTOM)){
+//                if(!SharedPreferencesUtils.getBoolean(context, MyFragment4.ISNEEDCUSTOM)){
                     InputStream is = context.getAssets().open(oldPath);
                     FileOutputStream fos = new FileOutputStream(filepath+newfilename);
                     byte[] buffer = new byte[1024];
@@ -51,7 +48,7 @@ public class AssetsCopyTOSDcard {
                     fos.flush();//刷新缓冲区
                     is.close();
                     fos.close();
-                }
+//                }
 
             }
         } catch (Exception e) {

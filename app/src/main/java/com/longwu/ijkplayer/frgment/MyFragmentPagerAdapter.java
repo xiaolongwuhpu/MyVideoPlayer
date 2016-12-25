@@ -22,7 +22,7 @@ public class MyFragmentPagerAdapter extends FragmentPagerAdapter {
 
     public MyFragmentPagerAdapter(FragmentManager fm, Context ctx) {
         super(fm);
-        myFragment1 = new MyFragment1();
+        myFragment1 =  MyFragment1.newInstance(ctx);
         myFragment2 = new MyFragment2();
         myFragment3 = new MyFragment3();
         myFragment4 = new MyFragment4();

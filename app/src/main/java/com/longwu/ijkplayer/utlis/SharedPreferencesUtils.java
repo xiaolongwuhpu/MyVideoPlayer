@@ -109,7 +109,34 @@ public class SharedPreferencesUtils {
         editor.putString(key, value);
         editor.commit();
     }
-
+//    /**
+//     * 获取String 数据
+//     *
+//     * @param context
+//     * @param key
+//     * @param defValue
+//     * @return
+//     */
+//    public static String getlist(Context context, String key, String defValue)
+//    {
+//        SharedPreferences sp = getSp(context);
+//        return sp.getString(key, defValue);
+//    }
+//
+//    /**
+//     * 存String缓存
+//     *
+//     * @param context
+//     * @param key
+//     * @param value
+//     */
+//    public static void setString(Context context, String key, String value)
+//    {
+//        SharedPreferences sp = getSp(context);
+//        Editor editor = sp.edit();
+//        editor.putString(key, value);
+//        editor.commit();
+//    }
     /**
      * 获取int 数据
      *

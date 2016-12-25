@@ -1,27 +1,24 @@
 package com.longwu.ijkplayer.adapter;
 
 import android.content.Context;
-import android.graphics.Typeface;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.longwu.ijkplayer.APP;
 import com.longwu.ijkplayer.R;
+import com.longwu.ijkplayer.bean.Result;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by longwu on 2016/12/03.
  */
-public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
+public class MyDreamAdapter extends RecyclerView.Adapter<MyDreamAdapter.MyViewHolder> {
 
-    private static final String TAG = "MyAdapter";
-    private List<String> datas;
+    private static final String TAG = "MyDreamAdapter";
+    private List<Result> datas;
     private LayoutInflater inflater;
     private OnItemClickListener mOnItemClickListener;
     private OnItemLongClickListener mOnItemLongClickListener;
@@ -34,11 +31,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         public boolean onLongClick(View parent, int position);
     }
 
-    private int CanUseposition = -1;
-
-    public void CanUse(int position) {
-        CanUseposition = position;
-    }
     public void setOnItemClickListener(OnItemClickListener l) {
         this.mOnItemClickListener = l;
     }
@@ -46,54 +38,55 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     public void setOnItemLongClickListener(OnItemLongClickListener l) {
         this.mOnItemLongClickListener = l;
     }
-public List<Integer> list_CanUseposition;
-    public MyAdapter(Context context, List<String> datas) {
+
+    public MyDreamAdapter(Context context, List<Result> datas) {
         this.datas = datas;
         inflater = LayoutInflater.from(context);
-        list_CanUseposition = new ArrayList<>();
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
         private View itemView;
-        private TextView title;
+        private TextView title,des,list;
 
         public MyViewHolder(View itemView) {
             super(itemView);
             this.itemView = itemView;
-            title = (TextView) itemView.findViewById(R.id.rv_main_item_title);
+            title = (TextView) itemView.findViewById(R.id.dm_title);
+            des = (TextView) itemView.findViewById(R.id.dm_des);
+            list = (TextView) itemView.findViewById(R.id.dm_list);
         }
     }
 
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        Log.e(TAG, "create a new item");
-        MyViewHolder holder = new MyViewHolder(inflater.inflate(R.layout.rv_main_item, parent, false));
+        MyViewHolder holder = new MyViewHolder(inflater.inflate(R.layout.activity_dream_item, parent, false));
         return holder;
     }
 
     @Override
     public void onBindViewHolder(final MyViewHolder holder, final int position) {
-        Log.e(TAG, "set value to item:" + position);
-        holder.title.setText(datas.get(position));
-if(CanUseposition!= -1){
-    if(position <=CanUseposition){
-        holder.title.setTextColor( APP.ctx.getResources().getColor(  R.color.text_topbar));
-        holder.title.setTypeface(Typeface.DEFAULT_BOLD);
-        holder.title.setTextScaleX((float) 1.2);
-    }
-
-   }
-        if(list_CanUseposition.contains(position)){
-            holder.title.setTextColor( APP.ctx.getResources().getColor(  R.color.text_topbar));
-            holder.title.setTypeface(Typeface.DEFAULT_BOLD);
-            holder.title.setTextScaleX((float) 1.2);
+        holder.title.setText(position+1+". "+datas.get(position).getTitle());
+        List<String> str_list = datas.get(position).getList();
+        StringBuilder sb = new StringBuilder();
+        sb.append("");
+        if(str_list.size()>0)
+        for(int i=0;i<str_list.size();i++){
+            if(i==0){
+                sb.append("\t\t\t\t"+str_list.get(i));
+            }else{
+                sb.append("\n\t\t\t\t"+str_list.get(i));
+            }
         }
+        holder.des.setText(sb);
+//        holder.des.setText(datas.get(position).getDes());
+
+//        holder.list.setText();
 //        int height = Math.abs((new Random().nextInt()) % 300);
 //        if (height < 200) {
 //            height += 200;
 //        }
-        holder.title.setHeight(150);
-
+//        holder.title.setHeight(150);
+//        holder.des.setHeight(260);
         if (mOnItemClickListener != null) {
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -121,7 +114,7 @@ if(CanUseposition!= -1){
     }
 
     public void addData(int position, String content){
-        datas.add(position,content);
+//        datas.add(position,content);
     }
 
     public void removeData(int position){

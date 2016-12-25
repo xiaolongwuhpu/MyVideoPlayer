@@ -1,0 +1,14 @@
+﻿籃球,http://live.gslb.letv.com/gslb?stream_id=lb_lanqiu_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+新疆廣匯籃球,http://live.gslb.letv.com/gslb?stream_id=lb_xjgh_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+廣廈籃球,http://live.gslb.letv.com/gslb?stream_id=lb_gslqpd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+金強籃球,http://live.gslb.letv.com/gslb?stream_id=lb_jqpd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+福建潯興籃球,http://live.gslb.letv.com/gslb?stream_id=lb_fjxx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+佛山龍獅籃球,http://live.gslb.letv.com/gslb?stream_id=lb_fsls_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+江蘇肯帝亞籃球,http://live.gslb.letv.com/gslb?stream_id=lb_jskdy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+(藥都)瑜伽籃球,http://live.gslb.letv.com/gslb?stream_id=lb_yujia_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+樂視體育體育+,http://live.gslb.letv.com/gslb?stream_id=lb_tyzx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+體育1,http://live.gslb.letv.com/gslb?stream_id=lb_sports_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+體育2,http://live.gslb.letv.com/gslb?stream_id=lb_tiyu2_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+河南足球,http://live.gslb.letv.com/gslb?stream_id=lb_hnzq_800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+國安足球,http://live.gslb.letv.com/gslb?stream_id=lb_guoan_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+拳擊帕奎奧,http://live.gslb.letv.com/gslb?stream_id=lb_pka_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1

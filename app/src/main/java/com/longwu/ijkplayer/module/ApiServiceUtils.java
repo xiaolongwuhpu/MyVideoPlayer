@@ -4,8 +4,10 @@ import com.alibaba.fastjson.JSON;
 import com.longwu.ijkplayer.bean.LiveBean;
 import com.longwu.ijkplayer.bean.Result;
 
+import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -55,7 +57,13 @@ public class ApiServiceUtils {
         return list;
     }
 
-    public static List<Result> getReultList() {
+    public static List<Result> getReultList(String str) {
+        String urlStr = null;
+        try {
+             urlStr = java.net.URLEncoder.encode(str, "UTF-8");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
         List<Result> list = new ArrayList<>();
         OkHttpClient client = new OkHttpClient
                 .Builder()
@@ -66,18 +74,22 @@ public class ApiServiceUtils {
                 .baseUrl("http://v.juhe.cn")
                 .client(client)
                 .addConverterFactory(ScalarsConverterFactory.create())
-                .addConverterFactory(GsonConverterFactory.create())
+//                .addConverterFactory(GsonConverterFactory.create())
                 .build();
         ApiService mApiServicePresenter = retrofit.create(ApiService.class);
-        Call<String> call = mApiServicePresenter.dream("39bc9c14927bb5a5469a34931a6cd333");
+        Call<String> call = mApiServicePresenter.dream(str,0,1,"39bc9c14927bb5a5469a34931a6cd333");
         Response<String> response = null;
         try {
             response = call.execute();
             String body = response.body();
             JSONObject js = new JSONObject(body);
             if (body != null) {
-                List<Result> temp = JSON.parseArray(js.getJSONArray("result").toString(), Result.class);
-                list.addAll(temp);
+               if( js.has("result")&& !js.isNull("result"))
+               {
+                JSONArray js_arr = js.getJSONArray("result");
+                    List<Result> temp = JSON.parseArray(js_arr.toString(), Result.class);
+                    list.addAll(temp);
+               }
             }
         } catch (Exception e) {
             e.printStackTrace();

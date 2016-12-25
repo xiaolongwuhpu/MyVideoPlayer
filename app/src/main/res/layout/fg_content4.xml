@@ -54,12 +54,4 @@
         android:background="@color/Grey_500"
         />
 
-    <TextView
-        android:id="@+id/ceshi"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginLeft="5dp"
-        android:text="是否允许自定义视频资源"
-        android:layout_marginRight="5dp"
-        />
 </LinearLayout>

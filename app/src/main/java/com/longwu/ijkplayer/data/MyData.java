@@ -2,6 +2,11 @@ package com.longwu.ijkplayer.data;
 
 import android.os.Environment;
 
+import com.longwu.ijkplayer.APP;
+import com.longwu.ijkplayer.frgment.MyFragment4;
+import com.longwu.ijkplayer.utlis.AssetsCopyTOSDcard;
+import com.longwu.ijkplayer.utlis.SharedPreferencesUtils;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -18,7 +23,7 @@ import java.util.List;
 public class MyData {
 
     private static  MyData myData;
-
+    public static String  rootdir = Environment.getExternalStorageDirectory()+"/longwuplayer";
     public static  MyData getinstance(){
         if (myData == null){
             myData = new MyData();
@@ -28,17 +33,27 @@ public class MyData {
 
     public List<String> list1, list2;
     List<List<String>> list;
-
     public List<List<String>> getTxtFilelist(String strFilePath) {
+        return getTxtFilelist(strFilePath,false);
+    }
+    public List<List<String>> getTxtFilelist(String strFilePath,boolean isCustomTxt) {
         String path = strFilePath;
         StringBuilder builder = new StringBuilder();
+        File file;
         //打开文件
 //        File file = new File(path);
         list1 =  new ArrayList<>();
         list2 =  new ArrayList<>();
         list = new ArrayList<>();
-        File file = new File(Environment.getExternalStorageDirectory()+"/aliPayLoad",
-                strFilePath);
+        if(isCustomTxt){
+
+            AssetsCopyTOSDcard.makeRootDirectory(rootdir);
+             file = new File(rootdir,strFilePath);
+
+        }else{
+             file = new File(APP.ctx.getExternalCacheDir(),strFilePath);
+        }
+
         //如果path是传递过来的参数，可以做一个非目录的判断
         if (file.isDirectory()) {
         } else {
@@ -69,9 +84,14 @@ public class MyData {
         }
         return list;
     }
-    String[] main_RecycleList = new String[]{"直播","国外节目","18岁以下勿进","影视专区","电视剧","综艺","搞笑"};
+    public static String[] main_RecycleList = new String[]{"国内直播","国外直播","禁止直播","国外电影","国内电影","电视剧直播","体育篮球直播"};
+    public static String[] main_RecycleList2 = new String[]{"国内直播","国外直播","禁止直播","国外电影","国内电影","电视剧直播","体育篮球直播","自定义视频"};
     public List<String> getMain_RecycleList(){
-        return Arrays.asList(main_RecycleList);
+        return Arrays.asList(SharedPreferencesUtils.getBoolean(APP.ctx, MyFragment4.ISNEEDCUSTOM)?main_RecycleList2:main_RecycleList);
+    }
+    String[] Sever_RecycleList = new String[]{"新闻头条","周公解梦","历史的今天","笑口常开","电影票房","电视节目表","全国wifi","NBA赛事","全国公交查询","驾照题库","QQ号码测吉凶","身份证查询"};
+    public List<String> getSever_RecycleList(){
+        return Arrays.asList(Sever_RecycleList);
     }
 
 //    央视 CCTV-1,http://117.144.248.49/HDcctv1.m3u8?authCode=07110409322147352675&stbId=006001FF0018120000060019F0D49567&Contentid=8813322615956633846&mos=jbjhhzstsl&livemode=1&channel-id=wasusyt

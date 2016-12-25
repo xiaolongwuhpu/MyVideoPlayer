@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/my_dialog_container"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/dialog_corner_shape"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/titleLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="24dp"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:id="@+id/titleBlock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|top"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_mydialog"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/textView_mydialog_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|top"
+                android:lineSpacingExtra="8dp"
+                android:text=""
+                android:textColor="#757575"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/txtTip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:textSize="@dimen/m_text_size"
+                android:visibility="gone"/>
+
+            <EditText
+                android:id="@+id/editText_mydialog"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_default"
+                android:hint="请输入密码"
+                android:paddingBottom="8dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingTop="10dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView_update"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="24dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView_mydialog_content1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:text=""
+                    android:textColor="#757575"
+                    android:textSize="16dp"
+                    android:visibility="visible"/>
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/button_mydialog_enter"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="8dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/list_item_select"
+                android:gravity="center"
+                android:minWidth="64dp"
+                android:text="确定"
+                android:textColor="@drawable/my_new_dialog_btn_color"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/textView_mydialog_gap"
+                android:layout_toLeftOf="@id/button_mydialog_enter"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:background="#c5c3c9"/>
+
+            <Button
+                android:id="@+id/button_mydialog_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@id/textView_mydialog_gap"
+                android:background="@drawable/list_item_select"
+                android:gravity="center"
+                android:minWidth="64dp"
+                android:text="取消"
+                android:textColor="#5196f0"
+                android:textSize="14dp"/>
+
+            <Button
+                android:id="@+id/button_mydialog_neutral"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/list_item_select"
+                android:gravity="center"
+                android:minWidth="64dp"
+                android:text="Neutral"
+                android:textColor="@drawable/my_new_dialog_btn_color"
+                android:visibility="gone"
+                android:textSize="14dp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
