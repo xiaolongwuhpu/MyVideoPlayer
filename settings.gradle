@@ -1,1 +1,1 @@
-include ':app', 'jjdxm-ijkplayer', ':PushSDK'
+include ':app', 'jjdxm-ijkplayer', ':PushSDK','library'
