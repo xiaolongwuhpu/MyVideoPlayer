@@ -26,6 +26,15 @@ proguard/
 # Log Files
 *.log
 
+# -----
+build/
+ffmpeg-temp/
+android/ffmpeg-*
+android/openssl-*
+.DS_Store
+ijkmedia/ijkyuv/
+ijkprof/android-ndk-profiler/
+
 # Android Studio Navigation editor temp files
 .navigation/
 
