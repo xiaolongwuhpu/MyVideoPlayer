@@ -41,7 +41,7 @@ public class DreamActivity extends Activity {
         setContentView(R.layout.activity_dream);
         ctx = this;
         dm_et = (EditText) findViewById(R.id.dm_et);
-        mRecyclerView = (RecyclerView) findViewById(R.id.main_recyclerview);
+        mRecyclerView = (RecyclerView) findViewById(R.id.first_recyclerview);
 
         CharSequence hint = dm_et.getHint();
         SpannableString ss =  new SpannableString(hint);

@@ -1,6 +1,7 @@
 package com.longwu.ijkplayer;
 
 
+import android.Manifest.permission;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.DefaultItemAnimator;
@@ -12,10 +13,13 @@ import android.widget.TextView;
 import com.longwu.ijkplayer.adapter.MyAdapter;
 import com.longwu.ijkplayer.data.MyData;
 import com.longwu.ijkplayer.utlis.MyItemDivider;
+import com.tbruyelle.rxpermissions.RxPermissions;
 import com.umeng.analytics.MobclickAgent;
 
 import java.io.File;
 import java.util.List;
+
+import rx.functions.Action1;
 
 /**
  * Created by longwu on 2016/12/03.
@@ -25,13 +29,27 @@ public class TvMenuActivity extends BaseActivity {
     private MyAdapter mMyAdapter;
     private List<String> list_name;
     private List<String> list_value;
-
+    TextView id_tx;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tvmenu);
 
-        TextView id_tx = (TextView) findViewById(R.id.id_tx);
+        id_tx = (TextView) findViewById(R.id.id_tx);
+        RxPermissions rxPermissions = new RxPermissions(this);
+        rxPermissions.request(permission.WRITE_EXTERNAL_STORAGE, permission.READ_EXTERNAL_STORAGE)
+                .subscribe(new Action1<Boolean>() {
+                    @Override
+                    public void call(Boolean aBoolean) {
+                        if(aBoolean){
+                            initData(id_tx);
+                        }
+                    }
+                });
+
+    }
+
+    private void initData(TextView id_tx) {
         Intent it = getIntent();
         int type = it.getIntExtra("type", 0);
         if (type == 0) {

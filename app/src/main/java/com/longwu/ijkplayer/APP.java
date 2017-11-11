@@ -5,7 +5,6 @@ import android.app.Application;
 import android.content.Context;
 import android.util.Log;
 
-import com.longwu.ijkplayer.utlis.CrashHandler;
 import com.longwu.ijkplayer.utlis.FSScreen;
 import com.umeng.message.IUmengRegisterCallback;
 import com.umeng.message.PushAgent;
@@ -36,9 +35,9 @@ public class APP extends Application {
             }
         });
 
-        CrashHandler ch = CrashHandler.getInstance();
-        ch.init(this);
-        Thread.setDefaultUncaughtExceptionHandler(ch);
+//        CrashHandler ch = CrashHandler.getInstance();
+//        ch.init(this);
+//        Thread.setDefaultUncaughtExceptionHandler(ch);
     }
 
     ArrayList<Activity> list = new ArrayList<Activity>();

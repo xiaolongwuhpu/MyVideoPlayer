@@ -1,14 +1,38 @@
-﻿籃球,http://live.gslb.letv.com/gslb?stream_id=lb_lanqiu_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
-新疆廣匯籃球,http://live.gslb.letv.com/gslb?stream_id=lb_xjgh_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
-廣廈籃球,http://live.gslb.letv.com/gslb?stream_id=lb_gslqpd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
-金強籃球,http://live.gslb.letv.com/gslb?stream_id=lb_jqpd_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
-福建潯興籃球,http://live.gslb.letv.com/gslb?stream_id=lb_fjxx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
-佛山龍獅籃球,http://live.gslb.letv.com/gslb?stream_id=lb_fsls_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
-江蘇肯帝亞籃球,http://live.gslb.letv.com/gslb?stream_id=lb_jskdy_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
-(藥都)瑜伽籃球,http://live.gslb.letv.com/gslb?stream_id=lb_yujia_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
-樂視體育體育+,http://live.gslb.letv.com/gslb?stream_id=lb_tyzx_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
-體育1,http://live.gslb.letv.com/gslb?stream_id=lb_sports_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
-體育2,http://live.gslb.letv.com/gslb?stream_id=lb_tiyu2_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
-河南足球,http://live.gslb.letv.com/gslb?stream_id=lb_hnzq_800&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
-國安足球,http://live.gslb.letv.com/gslb?stream_id=lb_guoan_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
-拳擊帕奎奧,http://live.gslb.letv.com/gslb?stream_id=lb_pka_1300&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1
+﻿E,p2p://1806110022:6003/59ad43c600056bd69ba186ba6be71bd7.ts
+AFC,p2p://1806110022:6003/59ad43c6000716f89ba1872766e65a6b.ts
+BBC,p2p://1806110022:6003/59492596000b5605148bfd8e68101e1d.ts
+NBA,p2p://1806110022:6003/59492542000b91a9148ab57e77a138d8.ts
+NHK,p2p://1806110022:6003/5949254f00005d16148ae5675f8d4a74.ts
+CNN,p2p://1806110022:6003/5949255d00005d9f148b1c171c38157f.ts
+SYFY,p2p://1806110022:6003/5949258d000a2677148bda18356919ef.ts
+KBS1,p2p://1806110022:6003/5949256b000f25a8148b56903c4c3b7f.ts
+DIVA,p2p://1806110022:6003/59492542000d3ca1148ab5eb6cec26c7.ts
+ESPN,p2p://1806110022:6003/594925a1000ee9ea148c2970179e6704.ts
+GOLF,p2p://1806110022:6003/594925ab0002fe25148c4d73250c1278.ts
+CNBC,p2p://1806110022:6003/5949258d000adbcc148bda4750500b4f.ts
+HGTV,p2p://1806110022:6003/594925630000d7c0148b33a65a415dfc.ts
+FX HD,p2p://1806110022:6003/594925ab0003b540148c4da237301244.ts
+CN HD,p2p://1806110022:6003/594925aa000c8811148c4bfc58e77e4e.ts
+DiSENY,p2p://1806110022:6003/594925340007c338148a7dd465c56a4c.ts
+ANIMAX,p2p://1806110022:6003/594925ab00019013148c4d156f8f01b0.ts
+France24,p2p://1806110022:6003/5949256b000eaba6148b567125d50c54.ts
+SETANTA,p2p://1806110022:6003/59492562000eab65148b33493cc87fba.ts
+CINEXMA,p2p://1806110022:6003/594925ab00005ef6148c4cc704c14cdc.ts
+E SPORTS,p2p://1806110022:6003/5949252e000c47cd148a678c78cb0f57.ts
+Bloomberg,p2p://1806110022:6003/594925a20003f203148c2a8a716c7088.ts
+OUTDOOR,p2p://1806110022:6003/5949252e000e3015148a68094003259c.ts
+BBC EARTH,p2p://1806110022:6003/5949252e000a5fab148a670f48405a18.ts
+TV5MONDE,p2p://1806110022:6003/5949258d000bd08e148bda855fad2dcb.ts
+FASHION TV,p2p://1806110022:6003/59492596000e6f3e148bfe5907775437.ts
+CUBAVISION,p2p://1806110022:6003/594925b7000d0200148c7ee314f315ae.ts
+EURO SPORT,p2p://1806110022:6003/5949258d000d7b09148bdaf345352202.ts
+MTV LIVE HD,p2p://1806110022:6003/5949252e000e6d11148a6819056746f9.ts
+STAR WORLD,p2p://1806110022:6003/594925430000d711148ab6a60a6a2a48.ts
+StarMoviesHD,p2p://1806110022:6003/5949253400052225148a7d2807796082.ts
+SKY NEWS HD,p2p://1806110022:6003/594925b7000eea26148c7f6015e33540.ts
+FLIGHT SPORTS,p2p://1806110022:6003/5949255700059bc7148b05ff65c96ff1.ts
+FOX SPORTS HD,p2p://1806110022:6003/5949252f0001135a148a6896695865ac.ts
+FOX SPORTS 2,p2p://1806110022:6003/5949255c000b1805148b1aee31b71ddf.ts
+FOX SPORTS3HD,p2p://1806110022:6003/5949256b0009ec23148b55382c6a179d.ts
+SKY NET SPORTS HD,p2p://1806110022:6003/59492542000f24ba148ab6681c1b7140.ts
+SPORTS ILLUSTRATED,p2p://1806110022:6003/5949253400059b04148a7d47504046af.ts

@@ -1,7 +1,9 @@
 package com.longwu.ijkplayer.frgment;
 
+import android.Manifest;
 import android.content.Context;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,9 +15,12 @@ import com.longwu.ijkplayer.R;
 import com.longwu.ijkplayer.data.MyData;
 import com.longwu.ijkplayer.utlis.CommonDialog;
 import com.longwu.ijkplayer.utlis.SharedPreferencesUtils;
+import com.tbruyelle.rxpermissions.RxPermissions;
 
 import java.util.Arrays;
 import java.util.List;
+
+import rx.functions.Action1;
 
 /**
  * Created by Jay on 2015/8/28 0028.
@@ -27,6 +32,24 @@ public class MyFragment4 extends Fragment {
     boolean is_need_status;
 
     public MyFragment4() {
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        mctx = getActivity();
+        RxPermissions rxPermissions = new RxPermissions(getActivity());
+        rxPermissions
+                .request(Manifest.permission.CAMERA)
+                .subscribe(new Action1<Boolean>() {
+                    @Override
+                    public void call(Boolean aBoolean) {
+                        if (aBoolean) {//true表示获取权限成功（注意这里在android6.0以下默认为true）
+                        } else {
+                        }
+                    }
+                });
+
     }
 
     public static MyFragment4 newInstance(Context ctx) {

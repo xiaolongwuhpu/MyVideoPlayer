@@ -33,7 +33,7 @@ Context ctx;
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fg_content,container,false);
         TextView txt_content = (TextView) view.findViewById(R.id.txt_content);
-         mRecyclerView = (RecyclerView) view.findViewById(R.id.main_recyclerview);
+         mRecyclerView = (RecyclerView) view.findViewById(R.id.first_recyclerview);
         ctx=getContext();
 
         mMyAdapter = new MyAdapter(ctx, MyData.getinstance().getSever_RecycleList());
